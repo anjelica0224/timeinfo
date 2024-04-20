@@ -1,0 +1,29 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+
+    font-size: 28px;
+    font-style: normal;
+    font-optical-sizing: auto;
+    font-family: "Fira Code", monospace;
+}
+
+#current-time {
+    font-size: 400%;
+    font-weight: bold;
+}
+
+#current-date, #timezone {
+    font-size: 80%;
+}
+
+#timezone {
+    color: silver;
+}
